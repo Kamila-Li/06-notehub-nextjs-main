@@ -3,6 +3,7 @@ import { getNotes } from "../../lib/api";
 import type { GetNotes } from "../../lib/api";
 import NotesClient from "./Notes.client";
 
+export const dynamic = "force-dynamic";
 export default async function NotesPage() {
   const queryClient = new QueryClient();
 
